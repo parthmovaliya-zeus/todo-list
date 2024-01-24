@@ -53,6 +53,8 @@ btn.addEventListener("click", () => {
     newLi.appendChild(action);
 
     ul.appendChild(newLi);
+
+    input.value = '';
 });
 
 ul.addEventListener("click", e => {
